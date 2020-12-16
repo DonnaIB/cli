@@ -12,12 +12,13 @@ const myMarks = [
 ];
 
 for(let i=0; i < myMarks.length; i++) {
+    
     const marker = new google.maps.Marker ({
         position: new google.maps.LatLng(myMarks[i].lat, myMarks[i].lng),
         map: map,
         title: myMarks[i].name
     });
+    console.log('working');
 }
 }
 
-initMap();
