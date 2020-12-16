@@ -16,6 +16,8 @@ for(let i=0; i < myMarks.length; i++) {
         position: new google.maps.LatLng(myMarks[i].lat, myMarks[i].lng),
         map: map,
         title: myMarks[i].name
-    })
+    });
 }
 }
+
+initMap();
